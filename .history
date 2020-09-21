@@ -224,3 +224,133 @@ ls
 cd git_history
 ls
 cp ~/.history .
+git add -u
+git commit -m "Quick exercise -->$(date)"
+git push
+git status
+git add History
+git status
+git reset HEAD
+git status
+cd
+clear
+alias
+alias gl='git log'
+gl
+alias gc='git commit -m'
+cd git_history
+alias gl='git log'
+ql
+gl
+alias gc='git commit -m'
+cd
+ls -a
+ll -a
+edit .zshrc
+ll -a
+which ll
+which cd
+which git
+which python
+whereis python
+sudo which python
+ho THIS is all
+jbdsajbfdkv
+git reset HEAD --hard
+cp 
+ls
+cd DS_CL_files
+ñs
+ls
+cd opentraveldata
+ls
+head optd_aircraft.csv
+tail optd_aircraft.csv
+head -3 optd_aircraft.csv
+head -n -3 optd_aircraft.csv
+head -n 3 optd_aircraft.csv
+head -n -3 optd_aircraft.csv
+clear
+wc optd_aircraft.csv
+wc -w optd_aircraft.csv
+cat optd_aircraft.csv
+wc optd_aircraft.csv
+cat optd_aircraft.csv | wc
+wc optd_aircraft.csv
+ls
+cat optd_aircraft.csv | wc | wc
+head -3 optd_aircraft.csv
+head -3 optd_aircraft.csv | wc
+head -8 optd_aircraft.csv
+head -8 optd_aircraft.csv | tail -1
+cat -n optd_aircraft.csv
+cat -n optd_aircraft.csv | head -8
+cat -n optd_aircraft.csv | head -8 | tail 1
+cat -n optd_aircraft.csv | head -8 | tail
+cat -n optd_aircraft.csv | head -8 | tail -1
+clear
+echo Test
+echo Test > test_file
+ls
+cat test_file
+echo Test2 > test_file
+cat test_file
+echo Test3 >> test_file
+ls
+cat test_file
+<test_file wc
+cat -n optd_aircraft.csv | head -8 | tail -1
+cat -n optd_aircraft.csv | head -8 | tail -1 >line_number8.csv
+cat line_number8.csv
+cd ..
+cd
+cd Data/shell
+ls
+head -5 Finn.txt 
+head -5 Finn.txt wc
+head -5 Finn.txt 
+head -5 Finn.txt | wc
+head -5 Finn.txt | wc -w
+tail -20 ~/.history > last_20_commands
+cat last_20_commands
+echo "this file is created by Kschool on: $(date)"
+echo "this file is created by Kschool on: $(date)" > Kschool.file
+cat Kschool.file
+clear
+cd
+find
+find .
+ls
+find ./DS_CL_files
+find . -name "text_file"
+find . -name "tExt_file"
+find . -type -d -iname "tExt_file"
+find . -type f -d -iname "tExt_file"
+find . -maxdepth 2 -type d -iname "tExt_file"
+find -iname "text_file"
+find -iname "text"
+find -maxdepth 3 -e,pty
+find -maxdepth 3 -empty
+find -maxdepth 3 -size +10M
+find -maxdepth 3 -mmin -60
+find . -maxdepth 3 -type f d -iname "tExt_file"
+cd Data
+find . -type f iname "*.csv"
+find. -type f iname "*.csv"
+find . -type f -iname "*.csv"
+find . -type f -iname "*.csv" | wc
+find . -type f -iname "*.csv" | wc -exec echo "FOUND ONE" \;
+find . -type f -iname "*.csv" -exec echo "FOUND ONE" \;
+echo this; echo that
+echo this echo that
+echo this\; echo that
+find . -type f -iname "*.csv" -exec ls -l {} \;
+ls -l
+find . -type f -iname "*.csv" -exec ls -l {} \; -exec head -2 {} \;
+find . -type f -iname "*.csv" -exec ls -l {} \; -exec head -2 {} \; | less -S
+find . -type f -iname "*.csv" -exec ls -l {} \; -exec head -2 {} \;
+find . -type f -iname "*.csv" -exec ls -l {} | wc \;
+find . -type f -iname "*.csv" -exec zsh -c "ls -l {} | wc" \;
+cd Data
+find . -type f -iname "*.csv" -exec zsh -c "ls -l {} | wc" \;
+bash

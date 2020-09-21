@@ -1,0 +1,161 @@
+
+ls
+echo $SHELL
+ls -l
+whoami
+echo $TERM
+echo hola
+echo '$USER'
+echo "hola"
+mivar=20
+echo $mivar
+date
+echo "hoy es el dia `date`"
+cho "hoy es el dia $(date)\
+\
+echo\
+"
+clear
+echo "hola
+echo "hoy es el dia `date` \\
+que es mi dia favorito"
+echo "linea1\n  \\
+linea2 "
+echo "a\tb"
+cd Data/shell
+cd ~
+cd Data/shell
+ls
+cat Text_example.txt
+cat -n Text_example.txt Text_example.txt Text_example.txt
+cat Text_example.txt Text_example.txt Text_example.txt
+pwd
+cd ~
+cd Data/shell
+cd ../
+cd shell
+cd ../../
+cd -
+cd ~
+ls
+ls -a
+ls -l
+mk nuevafolder
+mkdir nuevafolder
+ls
+cd nuevafolder
+touch nuevoarchivo
+¬ÉÅls
+ls
+clear
+cd ~
+clear
+git clone https://github.com/IgorAramb/DS_CL_files.git
+ls
+cd DS_CL_files
+ls
+rm README.md
+git reset HEAD --hard
+man ls
+ls --help
+cd ~
+cd DS_CL_files
+git config --global user.name "Ana E"
+git config --global user.email "anahegoa05@yahoo.es"
+cd ~
+git clone https://github.com/aeguia/master-kschool
+ls
+cd master-kschool
+ls
+cat README.md
+touch nuevoarchivo
+ls
+git status
+git add nuevoarchivo
+git status
+git commit -m 'Creado nuevo archivo'
+git push
+ls
+cd master-kschool
+ls
+git status
+git push
+git status
+cat .gitconfig
+cd ..
+cat .gitconfig
+git config --global user.name "Ana Eguia"
+cat .gitconfig
+gedit .config/
+gedit .gitconfig/
+cd master-kschool
+ls
+mkdir AEL
+ls
+cd AEL
+ls
+touch clase2
+ls
+gi status
+git status
+cd ..
+ls
+pwd
+../
+cd ..
+ls
+ls Pictures
+cd master-kschool
+ls
+mkdir Dir2
+ls
+ll
+cd Dir2
+touch archivo2
+ls
+cd ..
+ls
+ll
+git status
+ls -a
+cd AEL
+la
+ls
+gedit clase2
+cat clase2
+git status
+git add clase2
+ls
+cd ..
+ls
+cd Dir2
+ls
+gedit archivo2
+ls
+git add archivo2
+ls
+git status
+cd ..
+git status
+git commit -m "new commit 'date'"
+git status
+git log
+git status
+git push
+git remote -v
+git branch -m master
+ls
+git branch -M master
+git push -u origin master
+cd
+cat .history
+git clone https://github.com/aeguia/git_history.git
+ls
+cd git_history
+cp ~/.history
+cp ~/.history ./
+ls
+ls -a
+git add .history
+git commit -m "first 5h of master 'Date'"
+cp ~/.history History
